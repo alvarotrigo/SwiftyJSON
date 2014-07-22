@@ -1,8 +1,8 @@
 #SwiftyJSON
 SwiftyJSON makes it easy to deal with JSON data in Swift.
 ##Why is the typical JSON handling in Swift NOT good?
-Swift is very strict about types, it's good while explicit typing left us little chance to make mistakes. 
-But while dealing with things that naturally implicit about types such as JSON, it's painful.
+Swift is very strict about types, which is good because explicit typing leaves us little chance to make mistakes. 
+But when dealing with things that naturally implicit about types such as JSON, it's painful.
 
 Take the Twitter API for example: say we want to retrieve a user's "name" value of some tweet in Swift (according to Twitter's API https://dev.twitter.com/docs/api/1.1/get/statuses/home_timeline)
 
@@ -117,5 +117,5 @@ if json{
 ##Integration
 CocoaPods is not fully supported for Swift yet, to use this library in your project you should:  
 
-1. for Projects just drag SwiftyJSON.swift to the project tree
-2. for Workspaces you may include the whole SwiftyJSON.xcodeproj as suggested by @garnett
+1. for Projects: just drag SwiftyJSON.swift to the project tree
+2. for Workspaces: you may include the whole SwiftyJSON.xcodeproj as suggested by @garnett
